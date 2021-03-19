@@ -1,0 +1,34 @@
+.main {
+  background-color: #AB88FF;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 300px;
+}
+
+.main__title {
+  color: #FFF;
+  font-size: 25px;
+}
+
+.input {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 2px solid #FFF;
+  border-radius: 25px;
+  color: #FFF;
+  font-family: 'Muli', sans-serif;
+  font-size: 16px;
+  height: 50px;
+  outline: none;
+  padding: 0px 20px;
+  width: 70%;
+  text-align: center;
+}
+
+.input:focus {
+  box-shadow: 0 0 2pt 1pt white;
+}
+
+::placeholder {
+  color: #FFF;
+}

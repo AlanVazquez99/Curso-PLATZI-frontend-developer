@@ -1,0 +1,124 @@
+.login {
+  background: linear-gradient(#21C08B, #AB88FF);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 30px;
+  min-height: calc(100vh - 180px);
+}
+
+.login-container {
+  background-color: #FFFFFF1A;
+  border: 2px solid white;
+  border-radius: 40px;
+  color: white;
+  padding: 60px 40px;
+  min-height: 600px;
+  width: 350px;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  flex-direction: column;
+  text-align: center;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form__remember {
+  color: white;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.login-form__remember a {
+  color: white;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.login-form__remember a:hover {
+  text-decoration: underline;
+}
+
+.login-container__social {
+  display: flex;
+  justify-content: space-around;
+  font-size: 14px;
+  margin: 10px 0px;
+}
+
+.login-container__social a {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.login-container__social a:hover {
+  text-decoration: underline;
+}
+
+.login-container__social img {
+  width: 28px;
+}
+
+.login-container__register {
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+}
+
+.login-container__register a {
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.login-container__register a:hover {
+  text-decoration: underline;
+}
+
+.input {
+  background-color: transparent;
+  border: 0;
+  border-bottom: 2px solid white;
+  font-family: 'Muli', sans-serif;
+  color: white;
+  margin-bottom: 20px;
+  padding: 0px 20px;
+  outline: none;
+  height: 35px;
+  text-align: center;
+}
+
+::placeholder {
+  color: #FFFFFFCD;
+}
+
+.button {
+  background-color: #FFFFFF1A;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: 'Muli', sans-serif;
+  height: 50px;
+  letter-spacing: 1px;
+  margin: 15px 0px;
+}
+
+@media only screen and (max-width: 600px) {
+  .login-container{
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    width: 100vw;
+  }
+}
